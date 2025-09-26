@@ -1,0 +1,19 @@
+import java.util.*;
+public class maxandmin{
+    public static void main(String[]args){
+        Scanner kbd=new Scanner(System.in);
+        int a=kbd.nextInt();
+        int b=kbd.nextInt();
+        int max , min;
+        if(a>b){
+            max=a;
+            min=b;
+        }
+        else{
+            max=b;
+            min=a;
+        }
+        System.out.println("MAX=" + max +);
+        System.out.print("MIN=" + min);
+    }
+}
