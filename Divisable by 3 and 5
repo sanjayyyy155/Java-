@@ -1,0 +1,16 @@
+import java.util.*;
+public class divisable{
+    public static void main(String[]args){
+        Scanner kbd=new Scanner(System.in);
+        int n=kbd.nextInt();
+        if(n%3==0 && n%5==0)
+        {
+            System.out.print("Yes");
+        }
+        else{
+            System.out.print("No");
+        }
+    }
+        
+        
+}
