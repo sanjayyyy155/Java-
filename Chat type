@@ -1,0 +1,18 @@
+import java.util.*;
+public class chartype{
+    public static void main(String[]args){
+        Scanner kbd=new Scanner(System.in);
+        char ch = kbd.next().charAt(0);
+
+        if (Character.isLetter(ch)) 
+        {
+            System.out.print("alphabet");
+        }
+        else if(Character.isDigit(ch))
+        {
+            System.out.print("Digits");
+        }
+        else
+        System.out.print("special");
+    }
+}   
